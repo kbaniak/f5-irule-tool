@@ -10,6 +10,13 @@ iRule management tool for MS Windows
 
 `dotnet irule-tool.dll`
 
+# Building 
+
+Install VSCode on MS Platform
+Open Terminal
+
+`dotnet build -c Release`
+
 # iRule tool how to use
 
 `irule-tool.bat -h`
