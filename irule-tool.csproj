@@ -3,7 +3,7 @@
   <ItemGroup>
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
     <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
-    <PackageReference Include="NETStandard.Library" Version="1.6.1"/>
+    <PackageReference Include="NETStandard.Library" Version="2.0.3"/>
     <PackageReference Include="EPPlus.Core" Version="1.5.1"/>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3"/>
     
@@ -11,8 +11,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
-    <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
   </PropertyGroup>
 
 </Project>
