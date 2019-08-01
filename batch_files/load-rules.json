@@ -1,0 +1,23 @@
+{
+  "system":      "customer_1",
+  "system-ip":   "*",
+  "sw-version":  "12.1.2*",
+  "version":     "1.0",
+  "author":      "KBaniak",
+  "description": "this batch file has to be used in customer's folder directory",
+  "steps": [
+    "SAVE_UCS", "LOAD_RULES", "CONFIRM", "SAVE"
+  ],
+  "confirm-msg": [
+    "Please confirm saving running configuration"
+  ],
+  "rules": {
+    "o_reslib": { "priority": 1 },
+    "Local_REST_API_v1.0": {}
+  },
+  "options": {
+    "rules_location":    "./rules",
+    "base_location":     "./",
+    "working-directory": "./"
+  }
+}

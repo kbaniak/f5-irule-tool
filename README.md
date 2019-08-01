@@ -10,7 +10,7 @@ iRule management tool for MS Windows
 
 `dotnet irule-tool.dll`
 
-# Building 
+# Building
 
 Install VSCode on MS Platform
 Install .NET Core SDK 2.1.x
@@ -39,7 +39,7 @@ response: tm:net:self:selfcollectionstate -->
 
 The best application is to follow batch processing mode by specifying batch file as the parameter:
 
-`irule-tool.exe -b batch-file.txt`
+`irule-tool.exe -b batch-file.json`
 
 Example batch file is in directory.
 
